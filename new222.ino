@@ -17,7 +17,7 @@ MFRC522 rfid(SS_PIN, RST_PIN);
 MFRC522::MIFARE_Key key;
 
 void setup() {
-  // put your setup code here, to run once:
+  
   Serial.begin(9600);
   SPI.begin();
   rfid.PCD_Init();
